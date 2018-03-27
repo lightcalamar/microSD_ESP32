@@ -16,10 +16,9 @@ Buy to eBay https://www.ebay.es/itm/Micro-SD-Card-Development-Kit-Storage-Memor
 # The constructor is:
 Class SD:
 - SD.begin(uint8_t cs , int8_t mosi , int8_t miso , int8_t sck): initialize library with SPI pins
-
-for example;
-while (!card.init(SPI_HALF_SPEED, 17, 27, 26, 16)) {   
+- for example;
+- while (!card.init(SPI_HALF_SPEED, 17, 27, 26, 16))   
 
 //ATENCION A LA DEFINICION DE LOS PINES // 17=CS, 27=MOSI, 26=MISO y 16=SCLK}
 
-100% recommended. I will carry out tests to adapt to the GD2ESP library
+* 100% recommended. I will carry out tests to adapt to the GD2ESP library
